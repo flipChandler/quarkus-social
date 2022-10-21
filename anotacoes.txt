@@ -1,0 +1,13 @@
+# mvn io.quarkus.platform:quarkus-maven-plugin:2.3.0.Final:create
+
+# mvnw compile quarkus:dev -- hot deploy, atualizando a aplicacao, sem precisar derrubar
+
+# mvn quarkus:list-extensions
+
+# mvn quarkus:add-extension -Dextensions="hibernate-validator"
+
+# mvn quarkus:add-extension -Dextensions="jdbc-h2,hibernate-orm,hibernate-orm-panache,resteasy-jsonb"
+
+# mvn quarkus:add-extension -Dextensions="jdbc-postgresql"
+
+
